@@ -34,6 +34,7 @@ p {
 }
 
 /* Task-1 */
+
 #categories {
   display: flex;
   flex-direction: column;
@@ -54,7 +55,6 @@ p {
   font-style: SemiBold;
   font-size: 24px;
   line-height: 32px;
-  letter-spacing: 4%;
 }
 .item ul {
   display: flex;
@@ -88,4 +88,86 @@ p {
   object-fit: cover;
   aspect-ratio: 6 / 5;
   width: 100%;
+}
+
+/* Task-3 */
+
+input {
+  display: block;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  outline: none;
+  &:hover,
+  &:focus {
+    border: 1px solid #000000;
+  }
+}
+#name-input {
+  margin: 32px 24px 16px;
+  width: 360px;
+}
+h1 {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 24px;
+}
+
+/* Task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 408px;
+}
+
+.login-form input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  background: #4e75ff;
+  &:hover,
+  &:focus {
+    background: #6c8cff;
+  }
+  border: none;
+  color: #fff;
+}
+
+.login-form button {
+  margin-top: 16px;
+
+  margin-right: auto;
+}
+
+/* Task-5 */
+
+.widget {
+  display: block;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.change-color {
+  margin-top: 16px;
 }
