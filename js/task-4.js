@@ -12,6 +12,6 @@ formElem.addEventListener("submit", (e) => {
       password: password,
     };
     console.log(userData);
+    formElem.reset();
   }
-  formElem.reset();
 });
